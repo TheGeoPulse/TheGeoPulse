@@ -406,9 +406,107 @@ card.style.display='none';
 
 });
 }
+/* ===== MOBILE RESPONSIVE ===== */
 
+@media (max-width: 900px){
+
+nav{
+padding:12px 20px;
+flex-wrap:wrap;
+}
+
+nav h1{
+font-size:18px;
+}
+
+nav ul{
+width:100%;
+justify-content:center;
+margin-top:10px;
+flex-wrap:wrap;
+}
+
+nav ul li{
+margin:8px 10px;
+}
+
+.search-box{
+width:100%;
+margin-top:10px;
+}
+
+/* HERO */
+.hero h2{
+font-size:48px;
+}
+
+.hero p{
+font-size:16px;
+max-width:90%;
+}
+
+/* SECTION */
+section{
+padding:100px 5%;
+}
+
+.section-title{
+font-size:28px;
+}
+
+/* GRID */
+.grid{
+grid-template-columns:1fr;
+}
+
+/* MAP */
+.map{
+height:280px;
+background-size:contain;
+}
+
+/* NEWS */
+.news-embed iframe{
+height:300px;
+}
+
+}
+
+/* EXTRA SMALL PHONES */
+
+@media (max-width:500px){
+
+.hero h2{
+font-size:36px;
+}
+
+.hero p{
+font-size:15px;
+}
+
+nav ul li{
+margin:6px;
+}
+
+nav ul li a{
+font-size:14px;
+}
+
+.search-box{
+font-size:14px;
+padding:7px 10px;
+}
+
+.section-title{
+font-size:24px;
+}
+
+.card{
+padding:18px;
+}
+
+}
 </script>
 
 </body>
-
 </html>
